@@ -1,5 +1,5 @@
 body {
-	font-family: roboto;
+	font-family: 'Roboto', sans-serif;
 	background-color: #f7f7f7;
 }
 
@@ -31,10 +31,10 @@ body {
 
 /*Background da navbar*/
 .bg-custom {
-	background-color: #0ba867;
+	background-color: #1BB27B;/*#0ba867;*/
 }
 
-/*Div que alinha o botão da primeira seção*/
+/*Dique alinha o botão da primeira seção*/
 .btnHolder {
 	width: 100%;
 	text-align: center;
@@ -82,7 +82,11 @@ h2 {
 	/*background-color: #1481ae;*/
 	padding: 1em;
 }
-.faleConosco p,h2 {
+.faleConosco p {
+	text-align: center;
+}
+
+.faleConosco h2 {
 	text-align: center;
 }
 
@@ -124,7 +128,7 @@ footer span {
 	position: fixed;
 	bottom: 10px;
 	right: 10px;
-	background-color: #1481ae/*#0ba867*/;
+	background-color: #1BB27B;
 	border: none;
 	font-weight: bold;
 	border-radius: 5px;
@@ -137,12 +141,12 @@ footer span {
 }
 
 #btnBackTop:hover {
-	background-color: #0ba867;
+	background-color: #047F5D;
 	cursor: pointer;
 }
 
 
-.visible {
+.visible { /*Faz o botão backTop aparecer*/
 	display: block !important;
 }
 
@@ -159,3 +163,78 @@ footer span {
 .showContent {
 	max-height: 1000px;
 }
+
+.navbar-brand {
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.navbar {
+	
+	font-weight: 300;
+}
+
+.btn-custom {
+	background-color: #1BB27B;
+	color: #fff;
+	border: none;
+}
+
+.btn-custom:hover {
+	background-color: #047F5D;
+}
+
+.custom-itens {
+	font-size: 80px;
+	color: #1BB27B;
+	margin-bottom: 15px;
+}
+
+.features article {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+/*Medias sociais - formulário de contato*/
+
+ul#social {
+	list-style-type: none;
+	margin-right:0;
+	padding: 0;
+}
+
+#social li {
+	display: inline-block;
+	font-size: 30px;
+}
+
+#social li a {
+	color: #888;
+}
+
+/*Icones do facebook, twitter, e google plus*/
+.f-icon {
+	color: #3b5998;
+}
+
+.f-icon:hover {
+	color: #31497c;
+}
+
+.t-icon {
+	color: #00aced;
+}
+
+.t-icon:hover {
+	color:#0590c5;
+}
+
+.g-icon {
+	color: #dd4b39;
+}
+
+.g-icon:hover {
+	color: #c74231;
+}
+
+
