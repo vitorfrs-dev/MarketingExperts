@@ -60,4 +60,9 @@ $(document).ready(function() {
 		$('html,body').animate({scrollTop:0},500); 
 	});
 
+	//Rola a pagina até o formulário de fale conosoc
+	$('#actBtn').click(function() {
+		$('html,body').animate({scrollTop:$('.faleConosco').offset().top},1000);
+	})
+
 });
